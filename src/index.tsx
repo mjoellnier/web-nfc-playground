@@ -2,11 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./assets/styles/global.scss";
 import App from "./pages/App";
+import SimpleReading from "./pages/SimpleReading";
+import { BrowserRouter, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Route path="/" exact component={App} />
+      <Route path="/simplereading" exact component={SimpleReading} />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
