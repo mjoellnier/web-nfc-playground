@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c66eac83cd7c36d224975044da0fa245",
+    "revision": "7b7c7645284ce8f8c6f2235dfb8f845f",
     "url": "/web-nfc-playground/index.html"
   },
   {
-    "revision": "28f4455cbd92e04c710d",
+    "revision": "14c00e736390b83bdd7c",
     "url": "/web-nfc-playground/static/css/main.99f4b851.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-nfc-playground/static/js/2.e93d6871.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28f4455cbd92e04c710d",
-    "url": "/web-nfc-playground/static/js/main.b9a11720.chunk.js"
+    "revision": "14c00e736390b83bdd7c",
+    "url": "/web-nfc-playground/static/js/main.9865314f.chunk.js"
   },
   {
     "revision": "7ffeb1be215d1f86ad44",
