@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69c4a75e7ede5e044de11d8a6fa27d4b",
+    "revision": "544804903a292e62113730679794b192",
     "url": "/web-nfc-playground/index.html"
   },
   {
-    "revision": "cb77fb843e6e9ed2ab30",
-    "url": "/web-nfc-playground/static/css/main.be582470.chunk.css"
+    "revision": "063ead5595f605b84a6c",
+    "url": "/web-nfc-playground/static/css/main.6ebee0ac.chunk.css"
   },
   {
-    "revision": "b7fe4abbe1ff0dda7b52",
-    "url": "/web-nfc-playground/static/js/2.1c2ded15.chunk.js"
+    "revision": "4d1693befbd097718ee9",
+    "url": "/web-nfc-playground/static/js/2.1186fff7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/web-nfc-playground/static/js/2.1c2ded15.chunk.js.LICENSE.txt"
+    "url": "/web-nfc-playground/static/js/2.1186fff7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb77fb843e6e9ed2ab30",
-    "url": "/web-nfc-playground/static/js/main.4130fa5e.chunk.js"
+    "revision": "063ead5595f605b84a6c",
+    "url": "/web-nfc-playground/static/js/main.830cf915.chunk.js"
   },
   {
     "revision": "7ffeb1be215d1f86ad44",
