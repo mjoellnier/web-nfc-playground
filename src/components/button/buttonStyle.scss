@@ -1,6 +1,7 @@
 .main-menu-button-wrapper {
   width: 90%;
   max-width: 500px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -22,5 +23,28 @@
       background: rgba(96, 90, 121, 1);
       font-size: large;
     }
+  }
+}
+
+.back-button-wrapper {
+  width: min-content;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  cursor: pointer;
+
+  .back-button-chevron {
+    width: auto;
+    height: 75%;
+  }
+
+  p {
+    font-size: large;
+    text-transform: uppercase;
+    margin-left: 5px;
   }
 }

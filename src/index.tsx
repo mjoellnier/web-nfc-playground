@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./assets/styles/global.scss";
 import App from "./pages/App";
 import SimpleReading from "./pages/SimpleReading";
+import SimpleWriting from "./pages/SimpleWriting";
 import { HashRouter, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
@@ -11,6 +12,7 @@ ReactDOM.render(
     <HashRouter>
       <Route path="/" exact component={App} />
       <Route path="/simplereading" exact component={SimpleReading} />
+      <Route path="/simplewriting" exact component={SimpleWriting} />
     </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
