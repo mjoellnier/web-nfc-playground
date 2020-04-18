@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(96, 90, 121, 0.7);
+    background: #31384499;
     border-radius: 25px;
     transition: all 250ms linear;
     text-transform: uppercase;
@@ -20,7 +20,7 @@
     font-weight: bold;
 
     &:hover {
-      background: rgba(96, 90, 121, 1);
+      background: #313844;
       font-size: large;
     }
   }
