@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/web-nfc-playground/precache-manifest.30bdab857d15c5c49e5d8056d8be311b.js"
+  "/web-nfc-playground/precache-manifest.6bfacc41fea30a1e0acf6d16c5025bcc.js"
 );
 
 self.addEventListener('message', (event) => {
