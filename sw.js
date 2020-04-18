@@ -25,7 +25,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "1f7cfcf1d1608e993fcce4d103b4be3a"
+    "revision": "2d796a2da810c5a4036c93bf8ffe03b3"
   },
   {
     "url": "static/css/main.3e9b0772.chunk.css",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "revision": "4d8b1dd8ea675ca03a867cc668cbd111"
   },
   {
-    "url": "static/js/main.7fbbd31b.chunk.js",
-    "revision": "df2cdddb9f6842ffd49246d6f345b204"
+    "url": "static/js/main.3ec7e2fd.chunk.js",
+    "revision": "b8770b06226c5f71fda302aba979f25e"
   },
   {
     "url": "static/js/runtime-main.e43c6462.js",
