@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/web-nfc-playground/static/css/main.db153dc2.chunk.css",
-    "main.js": "/web-nfc-playground/static/js/main.4a03ab56.chunk.js",
-    "main.js.map": "/web-nfc-playground/static/js/main.4a03ab56.chunk.js.map",
+    "main.css": "/web-nfc-playground/static/css/main.3e9b0772.chunk.css",
+    "main.js": "/web-nfc-playground/static/js/main.7fbbd31b.chunk.js",
+    "main.js.map": "/web-nfc-playground/static/js/main.7fbbd31b.chunk.js.map",
     "runtime-main.js": "/web-nfc-playground/static/js/runtime-main.e43c6462.js",
     "runtime-main.js.map": "/web-nfc-playground/static/js/runtime-main.e43c6462.js.map",
     "static/js/2.debdf233.chunk.js": "/web-nfc-playground/static/js/2.debdf233.chunk.js",
     "static/js/2.debdf233.chunk.js.map": "/web-nfc-playground/static/js/2.debdf233.chunk.js.map",
     "index.html": "/web-nfc-playground/index.html",
-    "precache-manifest.94d526514d8f266519c4a1712ea32a68.js": "/web-nfc-playground/precache-manifest.94d526514d8f266519c4a1712ea32a68.js",
+    "precache-manifest.3c82a16248ce0155df13e362d7028c5d.js": "/web-nfc-playground/precache-manifest.3c82a16248ce0155df13e362d7028c5d.js",
     "service-worker.js": "/web-nfc-playground/service-worker.js",
-    "static/css/main.db153dc2.chunk.css.map": "/web-nfc-playground/static/css/main.db153dc2.chunk.css.map",
+    "static/css/main.3e9b0772.chunk.css.map": "/web-nfc-playground/static/css/main.3e9b0772.chunk.css.map",
     "static/js/2.debdf233.chunk.js.LICENSE.txt": "/web-nfc-playground/static/js/2.debdf233.chunk.js.LICENSE.txt",
-    "static/media/chevron-left.c7552ce8.svg": "/web-nfc-playground/static/media/chevron-left.c7552ce8.svg"
+    "static/media/chevron-left.dcf65cd4.svg": "/web-nfc-playground/static/media/chevron-left.dcf65cd4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e43c6462.js",
     "static/js/2.debdf233.chunk.js",
-    "static/css/main.db153dc2.chunk.css",
-    "static/js/main.4a03ab56.chunk.js"
+    "static/css/main.3e9b0772.chunk.css",
+    "static/js/main.7fbbd31b.chunk.js"
   ]
 }
