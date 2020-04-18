@@ -16,9 +16,9 @@ const App = () => {
     }
     if ("NDEFWriter" in window) {
       console.log("✅ You can write NFC tags!");
-      setCanWrite(false);
+      setCanWrite(true);
     } else {
-      console.log("❌ You can write read NFC tags!");
+      console.log("❌ You can NOT write read NFC tags!");
     }
   }, []);
 

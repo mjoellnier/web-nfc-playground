@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 import "./assets/styles/global.scss";
 import App from "./pages/App";
 import SimpleReading from "./pages/SimpleReading";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Route path="/" exact component={App} />
       <Route path="/simplereading" exact component={SimpleReading} />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
