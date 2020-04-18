@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/web-nfc-playground/static/css/main.d1b05096.chunk.css",
+    "main.js": "/web-nfc-playground/static/js/main.2bb60d0e.chunk.js",
+    "main.js.map": "/web-nfc-playground/static/js/main.2bb60d0e.chunk.js.map",
+    "runtime-main.js": "/web-nfc-playground/static/js/runtime-main.e43c6462.js",
+    "runtime-main.js.map": "/web-nfc-playground/static/js/runtime-main.e43c6462.js.map",
+    "static/js/2.32868497.chunk.js": "/web-nfc-playground/static/js/2.32868497.chunk.js",
+    "static/js/2.32868497.chunk.js.map": "/web-nfc-playground/static/js/2.32868497.chunk.js.map",
+    "index.html": "/web-nfc-playground/index.html",
+    "precache-manifest.23cf8cf677894aea90e97007235bd1aa.js": "/web-nfc-playground/precache-manifest.23cf8cf677894aea90e97007235bd1aa.js",
+    "service-worker.js": "/web-nfc-playground/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/web-nfc-playground/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.32868497.chunk.js.LICENSE.txt": "/web-nfc-playground/static/js/2.32868497.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/web-nfc-playground/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e43c6462.js",
+    "static/js/2.32868497.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.2bb60d0e.chunk.js"
+  ]
+}
