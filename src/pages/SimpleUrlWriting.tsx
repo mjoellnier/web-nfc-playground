@@ -7,16 +7,15 @@ import { createWriteRecord, WriteTypes } from "../utils/NFCUtil";
 declare var NDEFWriter: any;
 
 const SimpleWriting = () => {
-  const userLang = navigator.language;
   const [result, setResult] = React.useState("Write!");
   const [content, setContent] = React.useState(String);
   const writer = new NDEFWriter();
 
   const write = () => {
     writer
-      .write(createWriteRecord(WriteTypes.TEXT, content, userLang))
+      .write(createWriteRecord(WriteTypes.URL, content))
       .then(() => {
-        setResult("Message written.");
+        setResult("URL written.");
       })
       .catch((error: any) => {
         setResult(`Write failed :-( try again`);
@@ -27,9 +26,9 @@ const SimpleWriting = () => {
   return (
     <div className="home-wrapper">
       <BackButton />
-      <h2>What do you want to write?</h2>
+      <h2>Which URL do you want to write?</h2>
       <textarea
-        rows={5}
+        rows={1}
         value={content}
         onChange={(value) => setContent(value.target.value)}
       />

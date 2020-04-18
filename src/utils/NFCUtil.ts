@@ -1,3 +1,8 @@
+export enum WriteTypes {
+  TEXT,
+  URL,
+}
+
 export const handleNfcData = async (data: any) => {
   let result: {
     recordType: string;
@@ -34,4 +39,53 @@ export const handleNfcData = async (data: any) => {
     }
   }
   return result;
+};
+
+export const createWriteRecord = (
+  type: WriteTypes,
+  content: string,
+  language?: string
+) => {
+  switch (type) {
+    case WriteTypes.TEXT:
+      return createWritableText(language, content);
+    case WriteTypes.URL:
+      return createWritableUrl(content);
+    default:
+      break;
+  }
+};
+
+/**
+ * A helper method to create the text record to write on a nfc device.
+ * @param language The chosen user language
+ * @param content The content that has to be written
+ */
+const createWritableUrl = (url: string) => {
+  return {
+    records: [
+      {
+        recordType: "url",
+        data: url,
+      },
+    ],
+  };
+};
+
+/**
+ * A helper method to create the text record to write on a nfc device.
+ * @param language The chosen user language
+ * @param content The content that has to be written
+ */
+const createWritableText = (language: string = "de-DE", content: string) => {
+  return {
+    records: [
+      {
+        recordType: "text",
+        lang: language,
+        encoding: "utf-8",
+        data: content,
+      },
+    ],
+  };
 };

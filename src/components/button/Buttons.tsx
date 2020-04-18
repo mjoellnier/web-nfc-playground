@@ -17,6 +17,20 @@ export const MenuButton = ({
   );
 };
 
+export const ActionButton = ({
+  text,
+  action,
+}: {
+  text: string;
+  action: Function;
+}) => {
+  return (
+    <div onClick={() => action()} className="main-menu-button-wrapper">
+      <div className="main-menu-button">{text}</div>
+    </div>
+  );
+};
+
 export const BackButton = () => {
   const history = useHistory();
 

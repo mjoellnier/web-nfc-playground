@@ -30,7 +30,8 @@ const App = () => {
         <h3>Writing NFC: {canWrite ? "✅" : "❌"}</h3>
       </div>
       <MenuButton target="/simplereading" text="Simple Reading" />
-      <MenuButton target="/simplewriting" text="Simple Writing" />
+      <MenuButton target="/simplewriting" text="Simple Text Writing" />
+      <MenuButton target="/simpleurlwriting" text="Simple URL Writing" />
     </div>
   );
 };
